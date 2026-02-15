@@ -6,7 +6,7 @@ const textArea = document.getElementById("textArea");
 const videoOverlay = document.getElementById("videoOverlay");
 const flowerVideo = document.getElementById("flowerVideo");
 
-const message = "lucky is to have you .";
+const message = "You make every moment brighter.\n\nThank you for always being by my side.\n\nI am truly lucky to have you.";
 
 let stage = 0;
 
@@ -40,9 +40,9 @@ function startSet2() {
 
         setTimeout(() => {
             letterWrapper.style.display = "none";
-        }, 1500);
+        }, 2300);
 
-    }, 6500);
+    }, 23000);
 
     flowerVideo.src = "assets/flowers.mp4";
     flowerVideo.play();
@@ -94,3 +94,4 @@ function createHeartBurst() {
         setTimeout(() => heart.remove(), 4000);
     }
 }
+
