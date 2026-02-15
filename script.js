@@ -40,9 +40,9 @@ function startSet2() {
 
         setTimeout(() => {
             letterWrapper.style.display = "none";
-        }, 2000);
+        }, 1800);
 
-    }, 20000);
+    }, 18000);
 
     flowerVideo.src = "assets/flowers.mp4";
     flowerVideo.play();
@@ -94,5 +94,6 @@ function createHeartBurst() {
         setTimeout(() => heart.remove(), 4000);
     }
 }
+
 
 
